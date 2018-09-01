@@ -1,0 +1,35 @@
+Random Forest: Random Forest is one of the Supervised Machine Learning Algorithm used for both classification and regression. It is built with several Binary trees.
+
+Following are the main terminologies in random forest :
+
+Entropy: Entropy is the measure of randomness or unpredictability in the dataset. 
+
+Information gain : is the decrease in the entropy after the dataset is split.
+
+Leaf Node : is the decision node with no child nodes ie( without left/right node).
+
+Root node is the top most decision node.
+
+What is Forest?
+     - Forest is group of trees grow at one place.
+What is Random Forest?
+In same way random forest is the group of decision trees that help in Classifucation/Regression.
+
+How do random forest works?
+
+Gre    Ielts   GPA	 Toefl	    Admission(O/P)
+291	    6.5	   3.25   90	           1
+302	    5.5	   3.6	  99	           1
+278	    5.5	   2.9	  98	           0
+270	    6.5	   3.25   68               1
+302     7.0    2.9    40               1
+
+In the above table, student has 4 attributes (gre, ielts, toefl, GPA) which decides admission in university. If you look at it, GRE doesn't have any impact on admission process. 
+
+If IELTS> 6.0----> student will be admitted and tree follows. The below picture will show that. 
+            ![DecisionTree1.jpg](attachment:DecisionTree1.jpg)
+ It's always very important to know in depth about all the attributes. this can be achieved with Domain Knowledge.
+
+Advantages of Random Forest :
+  1. Oversampling can be underlined with Random Forest
+  2. It solves Missing values problem 
