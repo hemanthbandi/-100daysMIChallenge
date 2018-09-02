@@ -11,9 +11,12 @@ Leaf Node : is the decision node with no child nodes ie( without left/right node
 Root node is the top most decision node.
 
 What is Forest?
-     - Forest is group of trees grow at one place.
+     - Forest contain different sort of trees and were grown randomly. 
+ 
 What is Random Forest?
 In same way random forest is the group of decision trees that help in Classifucation/Regression.
+Instead of searching for the most important feature while splitting a node, it searches for the best feature among a random subset of features. 
+This results in a wide diversity that generally results in a better model.
 
 How do random forest works?
 
