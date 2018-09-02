@@ -1,0 +1,32 @@
+What is Classification?
+Data needs to be classified for every aspect in Machine Learning. Whether you are working on classification problem or regression problem. 
+some of the examples of classification:
+  1. Whether received Email is spam or not?
+  2. Whether student gets admission or not?
+  3. Is it apple or banana?
+Attributes is key in Machine Learning Problems. Let’s take Student admission as our example.
+To get University Admission, Student dataset consists of different attributes like GRE score, IELTS score, TOEFL score, GPA, Certifications etc. 
+Every dataset consists of both dependent and independent attributes.
+What is Dependent and Independent Attributes?
+Dependent Attributes are the variables that affect the outcome of the process. Independent attributes are the variables that has no impact on the outcome.
+Types of Classification?
+There are two types of classification I have seen in my learning. 
+1.	Binary Classification
+2.	Multi Classification
+Most but not all of ML problems can be solved with binary classification.
+Binary Classification:
+Binary Classification is basically a Supervised Learning algorithm since the training data set is already labelled. 
+Some typical Binary Classification Examples are:
+	Credit Card Fraud Detection
+	Positive or Negative
+	Spam Detection
+Some of the various paradigms that are used for learning Binary Classifier
+	Support Vector Machine
+	Neural Networks
+	Bayesian Classification
+ 
+
+Multi Classification:
+Multi Classification means a classification task with more than 2 classes.
+Multiclass classification makes the assumption that each sample is assigned to one and only one label
+ 
