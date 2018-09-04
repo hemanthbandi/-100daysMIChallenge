@@ -1,0 +1,45 @@
+Don’t expect DATA SCIENCE interview without SQL:
+If you are gearing up for a career in Data Science, it is very important to have SQL knowledge. Data will not available readily for Data Scientists. In most of the organizations, Data Engineers must do Data Wrangling, Web Scraping, Data Retrieving and converts data into Structured. In general, Data Scientist should be able to do what Data Engineer does. 
+In real world, data is available in different forms and categorised as Structured, Unstructured and Semi-Structured. Machine Learning models fed with only Structured Data, which means all other types of data need to be converted to structured before it is trained. This is one of hectic job for data scientists. 
+70 % of the organizations data is stored in databases. It is very important for Data Scientists to retrieve the stored data from database, sort it and convert it into meaningful sights. Structured Query Language can be used to do this. 
+Let’s see some basics of SQL used to update and retrieve data from Relational Database:
+Every SQL statement begins with a verb, a key word that describes what the statement does. CREATE, INSERT, DELETE are typical verbs. There are also clauses which species what the statement must do in detail. Some of the clauses are FROM, WHERE, INTO, HAVING. Some clauses are optional, and some are mandatory.
+				
+STATEMENT	DESCRIPTION
+
+DATA MANIPULATION
+
+SELECT	Retrieves data from database
+INSERT	Adds new rows of data to the database
+UPDATE	Updates the existing data in database
+DELETE	Removes the rows of data from database
+
+DATA DEFINITION
+
+CREATE TABLE	Adds a new table in database
+DROP TABLE	Removes a table from database
+ALTER TABLE	Changes the structure of an existing table
+CREATE VIEW	Adds a new view to the database
+DROP VIEW	Removes a view from the database
+CREATE INDEX	Builds an index for a column
+DROP INDEX	Removes the Index for a column
+
+ACCESS CONTROL
+
+GRANT	Grant user access privileges
+REVOKE	Removes User Access privileges 
+
+
+To get hands on experience, lets download SSMS (SQL Server Management Studio) from the below link: 
+https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017 
+With this, your machine should also have SQL server running. If you don’t have, download it from here - https://www.microsoft.com/en-us/sql-server/sql-server-downloads 
+Go ahead and download the developer version and it’s totally free. 
+Once you are done with SSMS installation, you will see a popup asking to enter ‘Server Name’. It is same as your Local Computer name if you are connecting local database.
+
+ 
+
+If you try to connect remote database, use (.\) Servername.
+	Server name can be found from “SQL Server Configuration manager”.
+ 
+Now you are ready to play with SQL. Let’s have SQL fun in next article. 
+In my next article, I will show how to create a new database, add tables, data, retrieve the data, add users to access your data, allow your database to be accessed remotely and more. 
