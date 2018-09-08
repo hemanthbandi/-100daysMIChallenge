@@ -1,0 +1,12 @@
+SQL Multi Table:  Data Scientist always asked to gather data from different tables in database. The process of gathering data from different tables and making it into one large target table is known as JOINING. Join are the foundation of multi table query processing in SQL Relational databases do not contain pointers or other mechanism for relating rows to one another. Joins are the only mechanism for cross table data relationships.
+In last article, we worked on simple SQL statements with single table. Let’s quickly look back the rules to work on single table.
+To generate SQL query results for SELECT statement, use the following steps:
+1.	Start with table named in FROM clause
+2.	If there is a WHERE clause in your statement, apply search condition for all its rows retaining its results for which search condition is True.
+3.	IF SELECT DISTINCT is specified, eliminate any duplicate rows of query results that were produced.
+4.	If there is an ORDER BY clause, sort the query results as specified.
+This section will be more focused on Multi Table Query processing. Many of us try to learn important concepts from different languages faster. If you are in that mode, this is best place for you. Let’s see how to write queries on multi tables.
+Before going into joins concept, it’s very important to learn about keys in SQL language.
+1.	Primary Key: In well-designed database, every table has one or more columns whose values uniquely identify each row in the table. This column is called primary key of the table. There can be multiple primary key columns in a database table. 
+2.	Foreign Key:
+A column in one table whose value matches the primary key in some other table is called foreign key.
